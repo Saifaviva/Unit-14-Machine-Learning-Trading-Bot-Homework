@@ -1,8 +1,12 @@
 ## Step 1 Establish a Baseline Performance - Model prediction with SVC
 
 ###  Conclusion:
-The baseline model was established with SVC; however the results show that is not a strong and good model. The performance results show an accuracy of 0.55 only and low scores for the predictive negatives “-1.0s” for precision and f-1 measures. The model does a good job in predicting the positive “+1.0s” for precision, recall and f-1 scores.
-The graph as shown for the cumulative actual returns and the strategy returns(based on prediction) shows that the strategy returns are very close and move in-sync with the actual returns for the first years until up to mid-year 2018; subsequent to that, the graph for the atrategy returns are materially higher although remain in sync with the actual returns
+The baseline model was established with SVC; however the results show that is not a strong and good model. 
+The performance results show an accuracy of 0.55 only and low scores for the predictive negatives “-1.0s” for precision and f-1 measures. 
+The model does a good job in predicting the positive “+1.0s” for precision, recall and f-1 scores.
+The graph as shown for the cumulative actual returns and the strategy returns(based on prediction) shows that the strategy returns are very close and 
+move in-sync with the actual returns for the first years until up to mid-year 2018; subsequent to that, the graph for the atrategy returns are materially higher 
+although remain in sync with the actual returns
 Completed in the notebook.
 
 
@@ -19,7 +23,8 @@ After running the coding lines, these are the results for the slicing options pr
 
 
 ### Conclusion 2.1 - What impact resulted from increasing or decreasing the training window?
-The change from the 3 months data for training to 6 months resulted in an overall improvement in accuracy, precision, recall and f1-score. However, when increasing beyond the 6 months there was no further improvement
+The change from the 3 months data for training to 6 months resulted in an overall improvement in accuracy, precision, recall and f1-score. However, 
+when increasing beyond the 6 months there was no further improvement
 
 ### 2.2 Tune the trading algorithm by adjusting the SMA input features
 ### Adjusting the SMA windows for the algorithm
@@ -28,7 +33,8 @@ The change from the 3 months data for training to 6 months resulted in an overal
 The results for the model improved when the short windows was increase to: short window = 8 and long window = 150
 
 ### Step 3 Choose the set of parameters that best improved the trading algorithm returns.
-Based on 2.2 and 2.3 the selected parameters for the baseline trading algorithm are Training Data = 6 months, SMA short = 8 and SMA long = 150. See below the graph with actual and strategy returns for the selected model shown in the notebook.
+Based on 2.2 and 2.3 the selected parameters for the baseline trading algorithm are Training Data = 6 months, SMA short = 8 and SMA long = 150. 
+See below the graph with actual and strategy returns for the selected model shown in the notebook.
 
 ###  Testing of other model
 The algorithm has been tested for replacing SVC alternatively with: Logistic Regression, AdaBoost and Decision Tree Classfier.
