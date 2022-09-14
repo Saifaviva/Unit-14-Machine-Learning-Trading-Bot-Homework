@@ -4,7 +4,7 @@
 The baseline model was established with SVC; however the results show that is not a strong and good model. The performance results show an accuracy of 0.55 only and low scores for the predictive negatives “-1.0s” for precision and f-1 measures. The model does a good job in predicting the positive “+1.0s” for precision, recall and f-1 scores.
 The graph as shown for the cumulative actual returns and the strategy returns(based on prediction) shows that the strategy returns are very close and move in-sync with the actual returns for the first years until up to mid-year 2018; subsequent to that, the graph for the atrategy returns are materially higher although remain in sync with the actual returns
 Completed in the notebook.
-"C:\Users\saif_\Downloads\image 1.png"
+
 
 ## Step 2 Tune the Baseline Trading Algorithm
 
