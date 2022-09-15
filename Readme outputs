@@ -8,7 +8,7 @@ The graph as shown for the cumulative actual returns and the strategy returns(ba
 move in-sync with the actual returns for the first years until up to mid-year 2018; subsequent to that, the graph for the atrategy returns are materially higher 
 although remain in sync with the actual returns
 Completed in the notebook.
-![Boxplot Baseline: SVC Model Prediction](Plot_Baseline_SVC_model.png)
+
 
 # Step 2 Tune the Basel![Boxplot Baseline: SVC Model Prediction](Plot_Baseline_SVC_model.png)ine Trading Algorithm
 
@@ -20,7 +20,7 @@ For tuning the training algorithm, the data has been sliced considering three op
 * Slicing Option 2: Period sliced as 18 months for training data
 * Slicing Option 3: Period sliced as 24 months for training data
 After running the coding lines, these are the results for the slicing options provided in notebook.
-![Table with results for the three slicing options](Results_Alternatives_Slicing_Data.png)
+
 
 # Conclusion 2.1 - What impact resulted from increasing or decreasing the training window?
 The change from the 3 months data for training to 6 months resulted in an overall improvement in accuracy, precision, recall and f1-score. However, 
@@ -28,7 +28,7 @@ when increasing beyond the 6 months there was no further improvement
 
 # 2.2 Tune the trading algorithm by adjusting the SMA input features
 # Adjusting the SMA windows for the algorithm
-![Table with results for the alternative SMS windows](Results_Alternatives_SMA_values_Short_Long.png)
+
 # Conclusion 2.3  - What impact resulted from increasing or decreasing either or both of the SMA windows?
 The results for the model improved when the short windows was increase to: short window = 8 and long window = 150
 
@@ -39,4 +39,4 @@ See below the graph with actual and strategy returns for the selected model show
 # Testing of other model
 The algorithm has been tested for replacing SVC alternatively with: Logistic Regression, AdaBoost and Decision Tree Classfier.
 After running the coding, the model with the best results is a Decision Tree Classification, shown in the notebook.
-![Results for testing three additonla models](Results_Alternatives_Model_selection.png)
+
